@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    @include('layout.partials.navbar.blade')
+    @include('layout.partials.navbar')
     @yield('content')
     <script src="{{ asset('js/app.js') }}"></script>
 </body>
