@@ -16,7 +16,7 @@ class PagesController extends Controller
     {
         $pageTitle = 'Beranda';
 
-        return view('welcome', compact('pageTitle'));
+        return view('home.welcome', compact('pageTitle'));
     }
 
     /**
